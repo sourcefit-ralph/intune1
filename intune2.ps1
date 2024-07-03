@@ -1,3 +1,5 @@
+#Invoke-RestMethod -Uri https://link.sourcefit.info/intune2 | Invoke-Expression
+
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 New-Item -Type Directory -Path "C:\HWID"
 Set-Location -Path "C:\HWID"
